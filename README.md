@@ -13,11 +13,6 @@ instant web development gratification. Just clone the repo (or download the zip/
 you're ready to develop your application.
 
 The seed app shows how to wire together Angular client-side components with Express on the server.
-It also illustrates writing angular partials/views with the Jade templating library.
-
-_Note: Although Jade supports interpolation, you should be doing that mostly on the client. Mixing
-server and browser templating will convolute your app. Instead, use Jade as a syntactic sugar for
-HTML, and let AngularJS take care of interpolation on the browser side._
 
 ## How to use angular-express-seed
 
@@ -63,7 +58,7 @@ Just fetch the changes and merge them into your project with git.
       index.js          --> route for serving HTML pages and partials
     views/
       index.html        --> main page for app
-      partials/         --> angular view partials (partial jade templates)
+      partials/         --> angular view partials (partial html templates)
         partial1.html
         partial2.html
 
