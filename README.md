@@ -1,5 +1,9 @@
 # Angular Express Seed
 
+Forked from [btford/angular-express-seed](https://github.com/btford/angular-express-seed).
+* Changed the project from working with Jade to work with HTML.
+* Updated the angular.js library. 
+
 Start an awesome app with AngularJS on the front, Express + Node on the back. This project is an
 application skeleton for a typical [AngularJS](http://angularjs.org/) web app for those who want
 to use Node to serve their app.
