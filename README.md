@@ -62,11 +62,10 @@ Just fetch the changes and merge them into your project with git.
       api.js            --> route for serving JSON
       index.js          --> route for serving HTML pages and partials
     views/
-      index.jade        --> main page for app
-      layout.jade       --> doctype, title, head boilerplate
+      index.html        --> main page for app
       partials/         --> angular view partials (partial jade templates)
-        partial1.jade
-        partial2.jade
+        partial1.html
+        partial2.html
 
 
 
@@ -78,5 +77,4 @@ A simple [blog](https://github.com/btford/angular-express-blog) based on this se
 ## Contact
 
 For more information on AngularJS please check out http://angularjs.org/
-For more on Express and Jade, http://expressjs.com/ and http://jade-lang.com/ are
-your friends.
+For more on Express check out http://expressjs.com/
