@@ -9,7 +9,5 @@ exports.index = function(req, res){
 
 exports.partials = function (req, res) {
   var name = req.params.name;
-    console.log(name);
-    res.sendfile('views/partials/' + name + '.html');
-//  res.render('partials/' + name);
+  res.sendfile('views/partials/' + name + '.html');
 };
